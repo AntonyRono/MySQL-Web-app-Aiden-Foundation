@@ -22,8 +22,8 @@ It is built of top of a MYSQL Database, and has two main functionalities:
   6. Link the js file to the ejs
 
 # Final Output
-![alt text]("ui.png")
-<!-- <p align="center">
-  <img src="ui.png" width="350" title="hover text">
-</p> -->
+<!-- ![alt text]("ui.png") -->
+<p align="center">
+  <img src="ui.png" width="750" title="alt text">
+</p>
 
