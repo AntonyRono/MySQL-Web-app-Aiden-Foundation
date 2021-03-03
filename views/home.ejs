@@ -1,0 +1,26 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="/app.css">
+</head>
+
+
+<body>
+    <h1> Aiden Foundation</h1>
+
+    <!-- <h2>Join the other <strong><mark><%=data%></mark></strong> members and be a part of the revolution</h2> -->
+
+    <h2>Join the other <strong><%=data%></strong> members and be a part of the revolution</h2>
+
+    <p class="lead"> Please enter your name, email and current profession</p><br>
+
+    <form method="POST" action="/register">
+        <label for="fname"> First name:</label>
+        <input type="text" id="fname" class="form" name="fname" placeholder="Enter Your First Name" pattern="[A-Za-z]{1,}" size="24" required><br>
+        <label for="lname"> Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name" pattern="[A-Za-z]{1,}" size="24" required><br>
+        <label for="job"> Profession:</label>
+        <input type="text" id="job" name="job" placeholder="Enter Your Profession" pattern="[A-Za-z ]{1,}" size="24" required><br>
+        <button>Register</button>
+    </form>
+</body>
