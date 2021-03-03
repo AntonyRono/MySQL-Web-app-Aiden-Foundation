@@ -14,7 +14,7 @@ const mysql = require('mysql'); // To connect to MySQL
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', // your root username
-    password: "Burn@2020$",
+    password: "Your password",
     database: 'aiden_foundation' // the name of your db
 });
 

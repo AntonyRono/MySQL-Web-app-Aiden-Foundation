@@ -30,7 +30,7 @@ app.use(express.static(__dirname + "/public")); // Take all contents and serve t
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', // your root username
-    password: "Burn@2020$",
+    password: "Your password",
     database: 'aiden_foundation' // the name of your db
 });
 
