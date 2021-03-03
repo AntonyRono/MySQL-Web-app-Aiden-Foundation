@@ -10,7 +10,7 @@
 // Stlye the app: Create a directory called "public", and within it create a file app.css
 // Link the css file to the EJS file, and then js file in confiiguration
 
-////// Laoding Packages //////
+////// Loading Packages //////
 const express = require('express'); // Express Framework
 // const faker = require('faker'); // To generate random entries
 const mysql = require('mysql'); // To connect to MySQL
